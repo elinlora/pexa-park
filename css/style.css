@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+input:focus {
+  outline: none;
+}
+
 img {
   display: block;
   width: 100%;
@@ -509,11 +513,13 @@ footer form input[type="email"] {
   footer form input[type="text"] {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    padding: 1.8em;
     margin: unset;
   }
   footer form input[type="email"] {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    padding: 1.8em;
     margin: unset;
   }
 }
